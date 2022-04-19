@@ -1,5 +1,8 @@
 # iotop
 
+## Dependency
+[libncurses](https://github.com/Ahren-Li/android_external_libncurses)
+
 ## Kernel Config
 ```
 # To enable I/O accounting the following configs have to be set:
