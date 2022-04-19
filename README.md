@@ -1,5 +1,14 @@
 # iotop
 
+## Kernel Config
+```
+# To enable I/O accounting the following configs have to be set:
+CONFIG_TASKSTATS
+CONFIG_TASK_IO_ACCOUNTING
+CONFIG_TASK_XACCT
+CONFIG_TASK_DELAY_ACCT
+```
+
 Is your Linux server too slow or load is too high? One of the possible
 causes of such symptoms may be high IO (input/output) waiting time,
 which basically means that some of your processes need to read or write
